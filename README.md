@@ -43,7 +43,7 @@ STEP 8:
       select partition (number new partition)
 STEP 9:
 
-        format fs=(ntfs o fat32)
+        format fs=(ntfs o fat32) quick
 
 STEP 10:
 
