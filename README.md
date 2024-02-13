@@ -43,7 +43,12 @@ STEP 8:
       select partition (number new partition)
 STEP 9:
 
-        format fs=(ntfs o fat32)  
+        format fs=(ntfs o fat32)
+
+STEP 10:
+
+        assign 
+        
 
 EXPLICACION
 ---
@@ -87,6 +92,6 @@ Seleccionamos esta nueva particion y la formateamos a NTFS o FAT32 con **select 
 
 ![image](https://github.com/Kondder/create_usb_partition/assets/77896781/8b55f432-50af-4f38-a114-4b3849d98035)
 
-<h1>Nueva particion creada en USB!!!</h1>
+Le asignamos una letra a esta nueva particion. Se asigna la proxima letra disponible o podes asignarle la que desees con el parametro **letter=(letter)**
 
-
+![image](https://github.com/Kondder/create_usb_partition/assets/77896781/7c7350b0-842b-4286-8cf5-03ea84939ad6)
